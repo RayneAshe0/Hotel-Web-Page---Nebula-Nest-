@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+    height: 1500px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* Navbar*/
+h1,h2,h3{
+    padding-bottom: 20px; 
+}
+p{
+    margin: 10px 0;
+}
+.Logo{
+    width: 1000px;
+    height: 50px;
+}
+.navbar{
+    width: 100%;
+    max-height: 50px;
+    opacity: 50%;
+    color: white; 
+    background-color: mediumslateblue;
+    font-size: 20px;
+}
+.navbar a{
+    color: white; 
+}
+
+.navbar h1{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 45px;
+    
+    
+}
+.navbar ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+.navbar ul li a:hover{
+    color: red;
+    background-color: white;
+}
+/* Exras*/
+
+#title{
+    
+    color: black;
+    position: relative;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+
+    
+}
+.rooms{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 77px;
+    ;
+    
+}
+.img1{
+    width: 33.33%;
+    height: 400px;
+    
+    
+    background-image: url(https://images.pexels.com/photos/277572/pexels-photo-277572.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.img2{
+    width: 33.33%;
+    height: 400px;
+    
+    background-image: url(https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img3{
+    width: 33.33%;
+    height: 400px;
+    position: relative;
+  
+    background-image: url(https://images.pexels.com/photos/277572/pexels-photo-277572.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Categoreis*/
+
+.new-room{
+    width: 100%;
+    height: 1056px;
+    background-color: mediumslateblue;
+    color: black;
+    position: relative;
+    top: -77px;
+    down: ;
+    left: ;
+    right: ;
+    text-align: center;
+    
+}
+h2{
+    padding-top: 10px;
+    color: black;
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+.final{
+    width: 100%;
+    height: 1000px;
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.Single-Room{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/16197244/pexels-photo-16197244/free-photo-of-interior-design-of-hotel-bedroom.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10%;
+}
+
+.Single-Room p{
+    position: relative;
+    top: 400px;
+}
+
+.Double-Room{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/3688261/pexels-photo-3688261.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+
+.Double-Room p{
+    position: relative;
+    top: 400px;
+}
+
+.Couple-Room{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+
+.Couple-Room p{
+    position: relative;
+    top: 400px;
+}
+
+.Family-Room{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/29000006/pexels-photo-29000006/free-photo-of-modern-hotel-room-with-two-beds-and-natural-light.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+
+.Family-Room p{
+    position: relative;
+    top: 400px;
+}

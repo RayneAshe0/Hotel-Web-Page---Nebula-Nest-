@@ -1,0 +1,14 @@
+.outerbox{
+    width: 1520px;
+    height: 720px;
+    border: 1px solid black;
+    background-image: url(https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?cs=srgb&dl=pexels-boonkong-boonpeng-442952-1134176.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}

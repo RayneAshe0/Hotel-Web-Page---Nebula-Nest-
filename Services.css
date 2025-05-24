@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+    height: 2380px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* Navbar*/
+h1,h2,h3{
+    padding-bottom: 20px; 
+}
+p{
+    margin: 10px 0;
+}
+.Logo{
+    width: 1000px;
+    height: 50px;
+}
+.navbar{
+    width: 100%;
+    max-height: 50px;
+    opacity: 50%;
+    color: white; 
+    background-color: mediumslateblue;
+    font-size: 20px;
+}
+.navbar a{
+    color: white; 
+}
+
+.navbar h1{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 45px;
+    
+    
+}
+.navbar ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+.navbar ul li a:hover{
+    color: red;
+    background-color: white;
+}
+/* Exras*/
+
+#title{
+    
+    color: white;
+    position: relative;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+
+    
+}
+.rooms{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 77px;
+    ;
+    
+}
+.img1{
+    width: 33.33%;
+    height: 400px;
+    
+    background-image: url(https://luxcity.com/storage/photos/7/blogs/facilities-of-a-5-star-hotel-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.img2{
+    width: 33.33%;
+    height: 400px;
+    
+    background-image: url(https://luxcity.com/storage/facility_index_first/31_07_2024/h77iHdBPN53Q7CNyrTWB.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img3{
+    width: 33.33%;
+    height: 400px;
+    position: relative;
+  
+    background-image: url(https://luxcity.com/img/post/33/facilities-of-a-5-star-hotel-5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Categoreis*/
+
+.new-services{
+    width: 100%;
+    height: 2020px;
+    background-color: mediumslateblue;
+    color: black;
+    position: relative;
+    top: -162px;
+    down: ;
+    left: ;
+    right: ;
+    text-align: center;
+    
+}
+h2{
+    padding-top: 10px;
+    color: black;
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+.final{
+    width: 100%;
+    height: 1963px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Employee{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/1732376812/photo/multi-racial-cooking-team-posing-for-a-team-photo-in-the-kitchen-at-work.jpg?b=1&s=612x612&w=0&k=20&c=dvC8o3eEjxD65rgzskjJxj39ywZchEnpb48MUqdWGv4=);
+    border-radius: 10px;
+}
+.Employee p{
+    position: relative;
+    top: 400px;
+}
+
+.Dining-Food{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/2287523/pexels-photo-2287523.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+.Dining-Food p{
+    position: relative;
+    top: 400px;
+}
+
+.Theater{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/109669/pexels-photo-109669.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+.Theater p{
+    position: relative;
+    top: 400px;
+}
+
+
+
+.Gym{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+.Gym p{
+    position: relative;
+    top: 400px;
+}
+
+
+
+.Pool{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+.Pool p{
+    position: relative;
+    top: 400px;
+}
+
+
+
+.Game{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/165658820/photo/game-room-with-pool-table.jpg?b=1&s=612x612&w=0&k=20&c=GKoEvQsXpqBm1r6Sui_oXRCI-BgA1R-Cxzo9M7qgD-Q=);
+    border-radius: 10px;
+}
+.Game p{
+    position: relative;
+    top: 400px;
+}
+
+.Wifi{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/6394550/pexels-photo-6394550.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 10px;
+}
+.Wifi p{
+    position: relative;
+    top: 400px;
+}
+
+
+.Security{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/157169159/photo/security-guard.jpg?b=1&s=612x612&w=0&k=20&c=iPf5JvQbq9Q5n7ylgBDAaM04gvpy6fkRu3RueXtO7oM=);
+    border-radius: 10px;
+}
+.Security p{
+    position: relative;
+    top: 400px;
+}
+

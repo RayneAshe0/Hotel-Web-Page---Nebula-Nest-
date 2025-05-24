@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="bookingform.css">
+</head>
+<body>
+  <div class="outerform">
+    <div class="formouterbox">
+   <h2><b><u>Payment Form</u></b></h2>
+
+<form id="paymentForm">
+  <label for="username" class="usertxt"><b>Name</b></label><br>
+  <input type="text" id="username" name="username" required class="usertxtinputbox"/><br>
+
+  <label for="number" class="nidnumber"><b>NID/Passport Number</b></label><br>
+  <input type="text" id="number" name="number" required class="nidnumberinputbox"/><br>
+
+  <label for="email" class="emailtxt"><b>Email</b></label><br>
+  <input type="email" id="email" name="email" required class="emailtxtinputbox" /><br>
+
+  <label for="phone" class="phonetxt"><b>Phone</b> Number</label><br>
+  <input type="tel" id="phone" name="phone" required class="phonetxtinputbox"/><br>
+
+  <label for="roomtype" class="roomtypebox" ><b>Room Catagory</b></label><br>
+  <select id="roomtype" name="roomtype" required class="roomtypeinputbox">
+    <option value="" disabled selected>Choose your room</option>
+    <option value="Single">Single bed Room</option>
+    <option value="Double">Double bed room</option>
+    <option value="Couple">Couple bed room</option>
+    <option value="Family">Family bed room</option>
+  </select><br>
+
+  <label for="amount" class="amounttxtbox"><b>Amount (Tk)</b></label><br>
+  <input type="number" id="amount" name="amount" min="1" required class="amountinputbox" /><br>
+  <button type="submit" class="submitbtn"><b>Submit</b></button>
+</form>
+</div>
+</div>
+<script src="bookingform.js"></script>
+</body>
+</html>

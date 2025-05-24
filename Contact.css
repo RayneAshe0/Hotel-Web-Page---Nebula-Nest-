@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* Navbar*/
+h1,h2,h3{
+    padding-bottom: 20px; 
+}
+p{
+    margin: 10px 0;
+}
+.Logo{
+    width: 1000px;
+    height: 50px;
+}
+.navbar{
+    width: 100%;
+    max-height: 50px;
+    opacity: 50%;
+    color: white; 
+    background-color: mediumslateblue;
+    font-size: 20px;
+}
+.navbar a{
+    color: white; 
+}
+
+.navbar h1{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 45px;
+    
+    
+}
+.navbar ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+.navbar ul li a:hover{
+    color: red;
+    background-color: white;
+}
+
+/* Fullbody */
+
+.Fullbody{
+    width: 100%;
+    height: 660px;
+    background-color:  rgb(214, 242, 243);
+}
+#a{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.title{
+    height: 100px;
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    text-decoration:underline;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: chartreuse;
+
+}
+.b{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    
+}
+.img1{
+    height: 300px;
+    width: 400px;
+    background-image: url(https://th.bing.com/th/id/OIP.1cQJJzbGZf_aVeY-k8RmLgHaE7?w=268&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    padding: 0px;
+
+}
+.img2{
+    height: 300px;
+    width: 400px;
+    background-image: url(https://th.bing.com/th/id/OIP.T5eWtBxbpNn4LyNxV4qHRQHaE8?w=251&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+.img3{
+    height: 300px;
+    width: 400px;
+    background-image: url(https://th.bing.com/th/id/OIP.hRr5_Y3aWHwG4ks17-ze6wHaEK?w=299&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+#c{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+}
+#info{
+    border: 1px solid black;
+    border-radius:15px;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+  background-color: gold;
+}
+h3{
+    position: relative;
+    top: 10px;
+}

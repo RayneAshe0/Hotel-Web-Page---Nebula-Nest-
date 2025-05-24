@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+    height: 1500px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* Navbar*/
+h1,h2,h3{
+    padding-bottom: 20px; 
+}
+p{
+    margin: 10px 0;
+}
+.Logo{
+    width: 1000px;
+    height: 50px;
+}
+.navbar{
+    width: 100%;
+    max-height: 50px;
+    opacity: 50%;
+    color: white; 
+    background-color: mediumslateblue;
+    font-size: 20px;
+}
+.navbar a{
+    color: white; 
+}
+
+.navbar h1{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 45px;
+    
+    
+}
+.navbar ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+.navbar ul li a:hover{
+    color: red;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bed1{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(https://www.hotelballina.ie/wp-content/uploads/2022/05/Ballina-Hotel-HIGH-Resolution-19-1366x768-fp_mm-fpoff_0_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 150px;
+}
+.booknow{
+    width: 300px;
+    height: 70px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    position: relative;
+    left: 620px;
+    color: red;
+}
+.bed2{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(https://st2.depositphotos.com/4142621/7192/i/450/depositphotos_71928097-stock-photo-room-service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 150px;
+}
