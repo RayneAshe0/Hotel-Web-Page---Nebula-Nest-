@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 .outerbox{
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    height: 710px;
     border: 1px solid black;
     background-image: url(https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?cs=srgb&dl=pexels-boonkong-boonpeng-442952-1134176.jpg&fm=jpg);
     background-repeat: no-repeat;
