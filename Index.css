@@ -81,7 +81,10 @@ p{
 back
     padding-top: 200px;
 }
-
+.box{
+    position: relative;
+    top: 100px;
+}
 .S1 .Text{
     color: White;
     text-align: center;
