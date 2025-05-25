@@ -23,7 +23,7 @@ html,body{
 .outerform{
     width: 100%;
     /* box-sizing: border-box; */
-    height:710px;
+    height:729px;
     border: 1px solid black;
     background-image: url(https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww);
     background-repeat: no-repeat;
